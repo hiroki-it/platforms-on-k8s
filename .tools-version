@@ -1,0 +1,3 @@
+kubectl 1.27.3
+helm 3.12.3
+kind 0.20.0
