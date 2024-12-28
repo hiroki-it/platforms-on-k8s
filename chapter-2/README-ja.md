@@ -83,7 +83,7 @@ EOF
 ラップトップからクラスター内で実行されているサービスにトラフィックをルーティングするには、NGINX Ingress Controller が必要です。NGINX Ingress Controller は、クラスター内で実行されているルーターとして機能しますが、外部にも公開されています。
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/release-1.8/deploy/static/provider/kind/deploy.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/refs/heads/main/deploy/static/provider/kind/deploy.yaml
 ```
 
 次に進む前に、`ingress-nginx` 内のポッドが正しく起動していることを確認します。
